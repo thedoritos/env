@@ -5,10 +5,31 @@
         "revision": "36df2d1bcf321bc041c0bf34cdf301ab3ad8affb"
       },
       "homebrew/core": {
-        "revision": "572fc56b93562aa2d07749e826f8b4ab6cc04090"
+        "revision": "d85202766672c3bcb25752cb5a6b325b7111708e"
       }
     },
     "brew": {
+      "git": {
+        "version": "2.26.2_1",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.26.2_1.catalina.bottle.tar.gz",
+              "sha256": "8796a6c37723ae33d22fe5bfc249b9135b309c87ec2b41e6025d726df1a2dee6"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.26.2_1.mojave.bottle.tar.gz",
+              "sha256": "592f95984655ada33979a863f5d12e07fca9a67b7c6e7eab9f17b597f9cd9fc9"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/git-2.26.2_1.high_sierra.bottle.tar.gz",
+              "sha256": "4d765a420dec19d5261e12b336b6912e9e5fb571ffb5bc4b5d7eae7f7766347d"
+            }
+          }
+        }
+      },
       "git-lfs": {
         "version": "2.11.0",
         "bottle": {
@@ -79,7 +100,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.17",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "572fc56b93562aa2d07749e826f8b4ab6cc04090",
+        "Homebrew/homebrew-core": "d85202766672c3bcb25752cb5a6b325b7111708e",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.4"
