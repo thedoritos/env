@@ -10,6 +10,7 @@ done
 
 cp ./.zshrc ~
 cp ./.gitconfig ~
+cp ./.gitignore ~
 
 if [[ $BREW ]]; then
   brew bundle
