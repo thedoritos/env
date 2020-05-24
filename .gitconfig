@@ -6,3 +6,5 @@
 [user]
 	name = thedoritos
 	email = thedoritos@gmail.com
+[core]
+	excludesfile = /Users/thedoritos/.gitignore
