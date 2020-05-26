@@ -28,3 +28,6 @@ alias gds='git diff --staged'
 alias gb='git branch -a'
 alias gch='git checkout'
 
+# compaudit | xargs chmod g-w
+autoload -Uz compinit && compinit
+
