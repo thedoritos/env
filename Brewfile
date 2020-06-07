@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
+brew "cocoapods"
 brew "git"
 brew "git-lfs"
 brew "gitmoji"
