@@ -9,6 +9,7 @@ do
 done
 
 cp ~/.zshrc .
+cp ~/.zshenv .
 cp ~/.gitconfig .
 cp ~/.gitignore .
 
