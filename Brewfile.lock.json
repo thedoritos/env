@@ -2,30 +2,30 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "8baa3666ecdcdd74a85047058895c13cc7139f6c"
+        "revision": "a4236840079d4d9ad29c553bb02910b90cc93d50"
       },
       "homebrew/core": {
-        "revision": "e45dd6af7cbce5498485ec2e70e01439f9f7bc4d"
+        "revision": "046aa3bc43656315ab512567835136f1f58e5b1c"
       }
     },
     "brew": {
       "cocoapods": {
-        "version": "1.9.1",
+        "version": "1.9.3",
         "bottle": {
           "cellar": "/usr/local/Cellar",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/cocoapods-1.9.1.catalina.bottle.tar.gz",
-              "sha256": "f375095fa465b420d07e30c81ea1ee96d51f3fd7dd5ca2907af9d9171200651c"
+              "url": "https://homebrew.bintray.com/bottles/cocoapods-1.9.3.catalina.bottle.tar.gz",
+              "sha256": "70f8c793bb60631422db028bbebb64ba9fcc1085a216abe5e625357380e06d46"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/cocoapods-1.9.1.mojave.bottle.tar.gz",
-              "sha256": "6ba9112176eff8173735c2528ddd775e1ae338a31390a0a08bc480e080cd97de"
+              "url": "https://homebrew.bintray.com/bottles/cocoapods-1.9.3.mojave.bottle.tar.gz",
+              "sha256": "074e5b53b7a054c132582183dcf47546ddd028a7beb9fcdc653fe4a43225bcf3"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/cocoapods-1.9.1.high_sierra.bottle.tar.gz",
-              "sha256": "51a8782f5d6cae4c7f0a7070a80f0324e5d8377c2c7ea56cbb229831b3401be4"
+              "url": "https://homebrew.bintray.com/bottles/cocoapods-1.9.3.high_sierra.bottle.tar.gz",
+              "sha256": "61d9473fd19573cebe3401921c69b8bc69eba9c096de654776a24dedd089ce65"
             }
           }
         }
@@ -73,22 +73,22 @@
         }
       },
       "gitmoji": {
-        "version": "3.2.4",
+        "version": "3.2.6",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/gitmoji-3.2.4.catalina.bottle.tar.gz",
-              "sha256": "90e581500a8e7d19ab593cffa338569c0cd4c068baef1f67b445ff8d33c2a169"
+              "url": "https://homebrew.bintray.com/bottles/gitmoji-3.2.6.catalina.bottle.tar.gz",
+              "sha256": "625e829cad6317c55ba225ad7429bdc44b5f2f0e8542913150fdbcf995f72cda"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/gitmoji-3.2.4.mojave.bottle.tar.gz",
-              "sha256": "76be7fc3791f2ec81209b8726f1b4b4a0221b9a8872dc190c26f725cc3b51ab7"
+              "url": "https://homebrew.bintray.com/bottles/gitmoji-3.2.6.mojave.bottle.tar.gz",
+              "sha256": "0a9e423e8d354c7a1b5dac4cc8aee6455c54081bc5a6f81fdf1d987afc0a1dd1"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/gitmoji-3.2.4.high_sierra.bottle.tar.gz",
-              "sha256": "2a1141d9e92b724bdb5bfffc626cc0eca0d4306cefa758712268c996bc434105"
+              "url": "https://homebrew.bintray.com/bottles/gitmoji-3.2.6.high_sierra.bottle.tar.gz",
+              "sha256": "61f3bfbad5458f75bbaf554eeca5d6840a0aaa1e27702ef210a6ec3aed81013f"
             }
           }
         }
@@ -119,9 +119,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.3.0",
+        "HOMEBREW_VERSION": "2.4.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "e45dd6af7cbce5498485ec2e70e01439f9f7bc4d",
+        "Homebrew/homebrew-core": "046aa3bc43656315ab512567835136f1f58e5b1c",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.4"
