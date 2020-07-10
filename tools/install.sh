@@ -15,5 +15,8 @@ cp ./.gitignore ~
 
 if [[ $BREW ]]; then
   brew bundle
+
+  anyenv install --force-init
+  anyenv install rbenv
 fi
 
