@@ -13,6 +13,9 @@ cp ~/.zshenv .
 cp ~/.gitconfig .
 cp ~/.gitignore .
 
+mkdir -p ./.bundle
+cp ~/.bundle/config ./.bundle
+
 if [[ $BREW ]]; then
   rm ./Brewfile
   rm ./Brewfile.lock.json
