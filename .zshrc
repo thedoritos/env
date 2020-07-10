@@ -33,5 +33,5 @@ autoload -Uz compinit && compinit
 
 ### Env
 
+eval "$(direnv hook zsh)"
 eval "$(anyenv init -)"
-
