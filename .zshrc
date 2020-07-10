@@ -31,3 +31,7 @@ alias gch='git checkout'
 # compaudit | xargs chmod g-w
 autoload -Uz compinit && compinit
 
+### Env
+
+eval "$(anyenv init -)"
+
