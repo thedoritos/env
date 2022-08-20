@@ -8,3 +8,7 @@
 	email = thedoritos@gmail.com
 [core]
 	excludesfile = /Users/thedoritos/.gitignore
+[color]
+	ui = auto
+[alias]
+        delete-branches = "!f () { git checkout $1; git branch --merged|egrep -v '\\*|develop|main'|xargs git branch -d; };f"

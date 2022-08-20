@@ -5,3 +5,13 @@
 .envrc
 .env
 
+# Editor
+.vscode/
+.idea/
+
+# Certificates
+*.keystore
+*.p12
+*.p8
+*.mobileprovision
+
