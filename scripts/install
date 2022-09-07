@@ -20,4 +20,3 @@ if [[ $BREW ]]; then
   anyenv install --force-init
   anyenv install rbenv
 fi
-

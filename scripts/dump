@@ -17,8 +17,7 @@ mkdir -p ./.bundle
 cp ~/.bundle/config ./.bundle
 
 if [[ $BREW ]]; then
-  rm ./Brewfile
-  rm ./Brewfile.lock.json
+  rm -f ./Brewfile
+  rm -f ./Brewfile.lock.json
   brew bundle dump
 fi
-
