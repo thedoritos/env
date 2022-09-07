@@ -27,6 +27,7 @@ alias gd='git diff'
 alias gds='git diff --staged'
 alias gb='git branch -a'
 alias gch='git checkout'
+alias gbd='git branch --merged | egrep -v "(^\*|master|main|develop)" | xargs git branch -d'
 
 # compaudit | xargs chmod g-w
 autoload -Uz compinit && compinit
