@@ -4,8 +4,4 @@ Set up my mac.
 
 ## Usage
 
-Run the following then you'll see.
-
-```sh
-$ make help
-```
+Run `make help` then you'll see.
