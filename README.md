@@ -4,7 +4,8 @@ Set up my mac.
 
 ## Usage
 
+Run the following then you'll see.
+
 ```sh
-$ ./tools/install.sh
-$ ./tools/dump.sh
+$ make help
 ```
