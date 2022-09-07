@@ -11,4 +11,6 @@
 [color]
 	ui = auto
 [alias]
-        delete-branches = "!f () { git checkout $1; git branch --merged|egrep -v '\\*|develop|main'|xargs git branch -d; };f"
+	prune-branches = "!f () { git checkout $1; git branch --merged|egrep -v '\\*|develop|main'|xargs git branch -d; };f"
+[init]
+	defaultBranch = main
